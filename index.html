@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Simples</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Clínica da Mulher</h1>
+    </header>
+
+    <section class="hero">
+        <div class="box-img">
+            <img class="responsiva" id="doutora" src="img/doutora1_.webp">
+        </div>
+        <div class="box-txt">
+            <span>MARQUE SUA CONSULTA</span>
+            <h2>Saúde plena,<br>Vida serena!</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit culpa, necessitatibus at nobis, ducimus obcaecati rerum pariatur quasi sed sit sequi numquam voluptate? Quasi hic excepturi, odio sequi consequatur eius!</p>
+            <a href="#" class="btn-hero">Marcar Consulta</a>
+        </div>
+    </section>
+
+    <section class="especialidades">
+        <div class="box-item">
+            <h3>Especialidade 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur facilis adipisci ipsa ratione tenetur dolorem alias culpa repellendus ullam vel doloremque saepe dicta velit libero, beatae quo amet quod commodi.</p>
+        </div>
+        <div class="box-item">
+            <h3>Especialidade 2</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur facilis adipisci ipsa ratione tenetur dolorem alias culpa repellendus ullam vel doloremque saepe dicta velit libero, beatae quo amet quod commodi.</p>
+        </div>
+        <div class="box-item">
+            <h3>Especialidade 3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur facilis adipisci ipsa ratione tenetur dolorem alias culpa repellendus ullam vel doloremque saepe dicta velit libero, beatae quo amet quod commodi.</p>
+        </div>
+        <a href="#" class="m-top btn-hero">Marcar Consulta</a>
+    </section>
+
+    <footer>
+        <p>2023 &copy; Clínica da Mulher. Todos os direitos reservados.</p>
+    </footer>
+
+    <div class="whats">
+        <a target="_blank" href="#">
+            <img width="50" src="img/whatsapp-logomarca7.png">
+        </a>
+    </div>
+
+    <script>
+        const doutora = document.getElementById('doutora');
+        
+        //HOVER MOUSE
+        doutora.addEventListener('mouseover', function(){
+            doutora.src = "img/doutora2_.webp";
+        });
+
+        //REMOVE MOUSE
+        doutora.addEventListener('mouseout', function(){
+            doutora.src = "img/doutora1_.webp";
+        });
+    </script>
+
+</body>
+
+</html>
